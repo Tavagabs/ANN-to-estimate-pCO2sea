@@ -16,25 +16,24 @@ O scrip should be used in the following order.
 
 1) Importing libraries
 
-*Example*
-```
+Example
 import numpy as np
 
 2) Import database and organize data
+
 Example
-```
 trajet_file = 'Import database.csv'
 
 3) Normalize the variables
    
 4) Import TensorFlow and Keras
+
 Example
-```
 import tensorflow as tf
 
 5) List the normalized variables that make up the input and output of the neural network
+
 Example
-```
 vars_for_model_input = [sss_norm_varlabel,sst_norm_varlabel,pco2at_norm_varlabel]
 vars_for_model_output = [pco2_norm_varlabel]
 
